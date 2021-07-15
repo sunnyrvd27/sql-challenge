@@ -35,31 +35,25 @@ CREATE TABLE "employees" (
      )
 );
 
+-- The though process of not allocating Primary keys to the tables
+-- salaries, dept_emp and dept_manager was done to ensure that no 
+-- employee or departments were added in database if they did not have 
+-- a entry in the employees and departments table. Hence use of Foreign 
+-- Key
+
 CREATE TABLE "salaries" (
-    "id" SERIAL   NOT NULL,
     "emp_no" INTEGER   NOT NULL,
-    "salary" INTEGER   NOT NULL,
-    CONSTRAINT "pk_salaries" PRIMARY KEY (
-        "id"
-     )
+    "salary" INTEGER   NOT NULL
 );
 
 CREATE TABLE "dept_emp" (
-    "id" SERIAL   NOT NULL,
     "emp_no" INTEGER   NOT NULL,
-    "dept_no" VARCHAR(4)   NOT NULL,
-    CONSTRAINT "pk_dept_emp" PRIMARY KEY (
-        "id"
-     )
+    "dept_no" VARCHAR(4)   NOT NULL
 );
 
 CREATE TABLE "dept_manager" (
-    "id" SERIAL   NOT NULL,
     "dept_no" VARCHAR(4)   NOT NULL,
-    "emp_no" INTEGER   NOT NULL,
-    CONSTRAINT "pk_dept_manager" PRIMARY KEY (
-        "id"
-     )
+    "emp_no" INTEGER   NOT NULL
 );
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title" FOREIGN KEY("emp_title")
