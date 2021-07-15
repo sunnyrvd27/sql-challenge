@@ -5,3 +5,13 @@
 # The initial Create table query is added to the EmployeeSQL folder # titled EmployeeSQL_CreateTables.sql
 
 # The data CSV files are added in the data folder. 
+
+# DataAnalysisQuery1.sql created for List the following details of each # employee: employee number, last name, first name, sex, and salary.
+
+# DataAnalysisQuery2.sql created for List first name, last name, and # hire date for employees who were hired in 1986.
+
+# DataAnalysisQuery3.sql created for List the manager of each # department with the following information: department number, # department name, the manager's employee number, last name, first # name.
+
+# DataAnalysisQuery4.sql created for List the department of each # # employee with the following information: employee number, last name, # first name, and department name.
+
+
