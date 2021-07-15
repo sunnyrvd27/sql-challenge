@@ -47,7 +47,7 @@ CREATE TABLE "salaries" (
 CREATE TABLE "dept_emp" (
     "id" SERIAL   NOT NULL,
     "emp_no" INTEGER   NOT NULL,
-    "dept_no" INTEGER   NOT NULL,
+    "dept_no" VARCHAR(4)   NOT NULL,
     CONSTRAINT "pk_dept_emp" PRIMARY KEY (
         "id"
      )
@@ -55,7 +55,7 @@ CREATE TABLE "dept_emp" (
 
 CREATE TABLE "dept_manager" (
     "id" SERIAL   NOT NULL,
-    "dept_no" INTEGER   NOT NULL,
+    "dept_no" VARCHAR(4)   NOT NULL,
     "emp_no" INTEGER   NOT NULL,
     CONSTRAINT "pk_dept_manager" PRIMARY KEY (
         "id"
