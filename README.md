@@ -17,3 +17,5 @@
 # DataAnalysisQuery5.sql created to List first name, last name, and sex for employees whose first name is "Hercules" and last names begins with "B."
 
 # DataAnalysisQuery6.sql created to List all employees in the Sales department, including their employee number, last name, first name, and department name.
+
+# DataAnalysisQuery6.sql created to List all employees in the Sales and Development department, including their employee number, last name, first name, and department name.
