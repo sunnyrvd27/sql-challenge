@@ -18,4 +18,4 @@
 
 # DataAnalysisQuery6.sql created to List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-# DataAnalysisQuery6.sql created to List all employees in the Sales and Development department, including their employee number, last name, first name, and department name.
+# DataAnalysisQuery7.sql created to List all employees in the Sales and Development department, including their employee number, last name, first name, and department name.
