@@ -12,6 +12,8 @@
 
 # DataAnalysisQuery3.sql created for List the manager of each # department with the following information: department number, # department name, the manager's employee number, last name, first # name.
 
-# DataAnalysisQuery4.sql created for List the department of each # # employee with the following information: employee number, last name, # first name, and department name.
+# DataAnalysisQuery4.sql created for List the department of each 
+# employee with the following information: employee number, last name, # first name, and department name.
 
-
+# DataAnalysisQuery5.sql created for List first name, last name, and   
+# sex for employees whose first name is "Hercules" and last names begin # with "B."
