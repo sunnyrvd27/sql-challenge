@@ -23,3 +23,5 @@
 # DataAnalysisQuery8.sql created to List In descending order, the frequency count of employee last names, i.e., how many employees share each last name.
 
 # Added VS Code file for bonus assignment task
+
+# The Histogram and Barchart for the Bonus Activity was added to the Git Repository
