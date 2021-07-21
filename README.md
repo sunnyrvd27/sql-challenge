@@ -21,3 +21,5 @@
 # DataAnalysisQuery7.sql created to List all employees in the Sales and Development department, including their employee number, last name, first name, and department name.
 
 # DataAnalysisQuery8.sql created to List In descending order, the frequency count of employee last names, i.e., how many employees share each last name.
+
+# Added VS Code file for bonus assignment task
